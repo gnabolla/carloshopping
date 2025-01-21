@@ -1,5 +1,5 @@
 <?php
-$db_name   = 'mysql:host=localhost;dbname=maindb';
+$db_name   = 'mysql:host=127.0.0.1;dbname=maindb'; 
 $user_name = 'myuser';
 $user_pass = 'MyP@ssw0rd!';
 
