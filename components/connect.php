@@ -1,9 +1,12 @@
 <?php
+$db_name     = 'mysql:host=localhost;dbname=maindb';
+$user_name   = 'root';
+$user_pass   = ''; // default XAMPP password is empty unless you've changed it
 
-$db_name = 'mysql:host=clickncheckout.infinityfreeapp.com;dbname=if0_37931780_maindb';
-$user_name = 'if0_37931780';
-$user_password = 'jPmWqYJx3a4';
-
-$conn = new PDO($if0_37931780_maindb, $if0_37931780, $jPmWqYJx3a4);
-
+try {
+    $conn = new PDO($db_name, $user_name, $user_pass);
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    echo "Connection failed: " . $e->getMessage();
+}
 ?>
