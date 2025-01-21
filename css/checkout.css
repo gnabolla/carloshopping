@@ -1,0 +1,96 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8e1; /* Light yellow background */
+    color: #333;
+}
+
+.checkout {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h3 {
+    font-size: 24px;
+    color: #302dfb; /* Yellow color for headers */
+    text-align: center;
+}
+
+/* Message styling */
+.message {
+    background-color: #f9fbe7;
+    border: 1px solid #fbc02d;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Form fields */
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fbc02d;
+    border-radius: 8px;
+    background-color: #fff3e0; /* Light yellow background for select */
+    color: #333;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #fbc02d; /* Yellow color for the button */
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #f57f17; /* Darker yellow when hovered */
+}
+
+input[type="hidden"] {
+    display: none;
+}
+
+h4 {
+    color: #fbc02d;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Cart item and product details */
+.checkout p {
+    color: #666;
+}
+
+/* Button styling */
+.btn {
+    background-color: #fbc02d;
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #f57f17;
+}
